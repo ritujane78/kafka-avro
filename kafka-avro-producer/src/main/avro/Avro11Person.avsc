@@ -1,0 +1,33 @@
+{
+	"type": "record",
+	"namespace": "com.jane.avro.data",
+	"name": "Avro11Person",
+	"fields": [
+		{
+			"name": "firstName",
+			"type": "string"
+		},
+		{
+			"name": "lastName",
+			"type": "string"
+		},
+		{
+			"name": "birthDate",
+			"type": {
+				"type": "int",
+				"logicalType": "date"
+			}
+		},
+		{
+			"name": "address",
+			"type": "com.jane.avro.data.Avro11Address"
+		},
+		{
+			"name": "bankAccounts",
+			"type": {
+				"type": "array",
+				"items": "com.jane.avro.data.Avro11BankAccount"
+			}
+		}
+	]
+}
