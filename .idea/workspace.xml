@@ -5,72 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7bc004c-c46a-4f1c-a30b-1631df1a348c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro01.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro02.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro03.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro04.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro04Enum.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro05.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro06.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro07.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro08.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro10.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro11Address.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro11BankAccount.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro11Country.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Avro11Person.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/BookAvro.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeBackwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeBackwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeForwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeForwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeFullV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeFullV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeNotBackwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeNotBackwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeNotForwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeNotForwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/Hello.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/Avro01Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/HelloConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/message/HelloPositiveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/config/StreamConfigJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro01.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro02.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro03.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro04.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro04Enum.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro05.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro06.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro07.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro08.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro10.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro11Address.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro11BankAccount.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro11Country.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Avro11Person.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/BookAvro.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeBackwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeBackwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeForwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeForwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeFullV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeFullV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeNotBackwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeNotBackwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeNotForwardV1.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeNotForwardV2.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/Hello.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/Avro01Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/HelloProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/HelloScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeBackward.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/EmployeeBackwardConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeBackward.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/EmployeeBackwardProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/EmployeeBackwardScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/GRADLE-TASK_avroSchema-java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/POSTMAN_compatibility.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/KafkaAvroConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/KafkaAvroConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/KafkaAvroProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/KafkaAvroProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/HelloConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/HelloConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/Avro01Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/Avro01Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/HelloProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/HelloProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/HelloScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/HelloScheduler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,26 +113,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ritujane78"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ritujane78&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:ritujane78/kafka-avro.git",
-    "accountId": "7043973b-b685-4893-9118-a2d048c6c6ca"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ritujane78/kafka-avro.git&quot;,
+    &quot;accountId&quot;: &quot;7043973b-b685-4893-9118-a2d048c6c6ca&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3DpoS9Wtg7mb6UKJ5PaKvSDn8Ds" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -206,6 +152,7 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.KafkaAvroConsumerApplication.executor": "Run",
     "Spring Boot.KafkaAvroProducerApplication.executor": "Run",
@@ -213,7 +160,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rituj/Documents/Coding/kafka-avro/kafka-avro-consumer/src/main",
+    "last_opened_file_path": "C:/Users/rituj/Documents/Coding/kafka-avro/kafka-avro-consumer/src/main/avro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -225,12 +172,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-consumer\src\main\avro" />
+      <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-producer\src\main\avro" />
       <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-consumer\src\main" />
       <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-producer\src\main\java\com\jane\avro\data" />
       <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-consumer\src\main\java\com\jane\kafka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-producer\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jane.kafka.broker.consumer" />
+      <recent name="com.jane.kafka.broker.scheduler" />
+      <recent name="com.jane.kafka.broker.producer" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.KafkaAvroConsumerApplication">
@@ -320,7 +274,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778988369285</updated>
-      <workItem from="1778988370521" duration="10585000" />
+      <workItem from="1778988370521" duration="12330000" />
+      <workItem from="1779025298555" duration="1000" />
+      <workItem from="1779071848952" duration="45000" />
+      <workItem from="1779091232693" duration="18000" />
+      <workItem from="1779161709395" duration="419000" />
+      <workItem from="1779275640411" duration="3578000" />
+      <workItem from="1779331513655" duration="1827000" />
     </task>
     <servers />
   </component>

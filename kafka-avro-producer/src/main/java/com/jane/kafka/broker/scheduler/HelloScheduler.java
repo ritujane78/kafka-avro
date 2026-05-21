@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.concurrent.ThreadLocalRandom;
 
-@Service
+//@Service
 public class HelloScheduler {
 
     private final HelloProducer helloProducer;
@@ -17,7 +17,7 @@ public class HelloScheduler {
         this.helloProducer = helloProducer;
     }
 
-    @Scheduled(fixedRate = 1000)
+//    @Scheduled(fixedRate = 1000)
     public void sendToKafka() {
         Hello data = Hello.newBuilder()
                         .setMyIntField(ThreadLocalRandom.current().nextInt())

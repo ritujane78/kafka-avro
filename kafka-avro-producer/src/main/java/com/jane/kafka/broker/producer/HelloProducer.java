@@ -4,7 +4,7 @@ import com.jane.avro.data.Hello;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class HelloProducer {
 
     private final KafkaTemplate<String, Hello> kafkaTemplate;

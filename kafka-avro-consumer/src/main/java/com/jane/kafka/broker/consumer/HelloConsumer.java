@@ -14,9 +14,9 @@ import org.springframework.stereotype.Component;
 import java.util.Locale;
 import java.util.Map;
 
-@Component
+//@Component
 public class HelloConsumer {
-    @Autowired
+//    @Autowired
     void kstreamHello(StreamsBuilder builder,
                       @Autowired @Qualifier("configSerde")Map<String, String> configSerde) {
         var helloSerde = new SpecificAvroSerde<Hello>();
