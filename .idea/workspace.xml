@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7bc004c-c46a-4f1c-a30b-1631df1a348c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeBackward.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/EmployeeBackwardConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeBackward.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/EmployeeBackwardProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/EmployeeBackwardScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/GRADLE-TASK_avroSchema-java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/POSTMAN_compatibility.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/KafkaAvroConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/KafkaAvroConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/HelloConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/HelloConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/Avro01Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/Avro01Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/HelloProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/HelloProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/HelloScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/HelloScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/avro/EmployeeForward.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/EmployeeForwardConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/screenshots/POSTMAN_forward_compability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/avro/EmployeeForward.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/EmployeeForwardProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/EmployeeForwardScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/EmployeeBackwardConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/src/main/java/com/jane/kafka/broker/consumer/EmployeeBackwardConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/EmployeeBackwardProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/producer/EmployeeBackwardProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/EmployeeBackwardScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-producer/src/main/java/com/jane/kafka/broker/scheduler/EmployeeBackwardScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/POSTMAN_compatibility.png" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-avro-consumer/screenshots/POSTMAN_backward-compatibility.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +78,11 @@
                 <item name="kafka-avro-consumer" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="source generation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka-avro-consumer" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -179,11 +182,12 @@
       <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-consumer\src\main\java\com\jane\kafka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-consumer\screenshots" />
       <recent name="C:\Users\rituj\Documents\Coding\kafka-avro\kafka-avro-producer\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jane.kafka.broker.consumer" />
       <recent name="com.jane.kafka.broker.scheduler" />
+      <recent name="com.jane.kafka.broker.consumer" />
       <recent name="com.jane.kafka.broker.producer" />
     </key>
   </component>
@@ -254,8 +258,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.kafka-avro-consumer [generateAvroJava]" />
         <item itemvalue="Gradle.kafka-avro-producer [generateAvroJava]" />
+        <item itemvalue="Gradle.kafka-avro-consumer [generateAvroJava]" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +284,7 @@
       <workItem from="1779091232693" duration="18000" />
       <workItem from="1779161709395" duration="419000" />
       <workItem from="1779275640411" duration="3578000" />
-      <workItem from="1779331513655" duration="1827000" />
+      <workItem from="1779331513655" duration="4899000" />
     </task>
     <servers />
   </component>

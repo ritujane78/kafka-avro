@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.concurrent.ThreadLocalRandom;
 
-@Service
+//@Service
 public class EmployeeBackwardScheduler {
 
     private final EmployeeBackwardProducer employeeBackwardProducer;
@@ -22,7 +22,7 @@ public class EmployeeBackwardScheduler {
         this.employeeBackwardProducer = employeeBackwardProducer;
     }
 
-    @Scheduled(fixedRate = 1000)
+//    @Scheduled(fixedRate = 1000)
     public void sendToKafka() {
         EmployeeBackward data = EmployeeBackward.newBuilder()
                 .setFirstName(faker.name().firstName())

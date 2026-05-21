@@ -5,7 +5,7 @@ import com.jane.avro.data.Hello;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class EmployeeBackwardProducer {
 
     private final KafkaTemplate<String, EmployeeBackward> kafkaTemplate;
