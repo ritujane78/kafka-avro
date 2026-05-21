@@ -1,0 +1,42 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven / Gradle build outputs
+target/
+build/
+out/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Kafka / Avro generated files (common patterns)
+*.avsc~
+*.avro~
+generated-sources/
+generated-test-sources/
+
+# Schema Registry / local temp files
+*.schema
+*.tmp
+
+# Docker
+docker-compose.override.yml
+
+# IDE / Editor folders
+.vscode/
+
+# Misc caches
+.cache/
